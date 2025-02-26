@@ -14,6 +14,7 @@ class PostController extends Controller
         return"xamma postlar";
     }
 
+    
     /**
      * Show the form for creating a new resource.
      */
@@ -38,6 +39,7 @@ class PostController extends Controller
         return $id;
     }
 
+
     /**
      * Show the form for editing the specified resource.
      */
@@ -55,7 +57,8 @@ class PostController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+   
+
      */
     public function destroy(string $id)
     {
