@@ -14,6 +14,10 @@ class ProductController extends Controller
     }
 
     // 2. Yangi mahsulot qo'shish
+
+
+    
+
     public function create()
     {
         return "Yangi mahsulot qo'shish";
@@ -26,6 +30,8 @@ class ProductController extends Controller
     }
 
     // 4. Ma'lumotni tahrirlash
+
+
     public function edit($id)
     {
         return "Mahsulotni tahrirlash, ID: {$id}";
